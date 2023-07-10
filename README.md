@@ -4,6 +4,7 @@
 - 사용 환경
   - 언어 : PHP / DBMS : MySQL
 - 코드 및 시연 영상 위주로 프로젝트를 소개합니다.
+  - 순서 : 프로젝트 목적 > 시연 영상 > 주요 구현 부분(코드) 설명 > 마무리 소감
 - 프로젝트 설계(ERD / CRUD 등)는 다음 링크에 있습니다.
   - [프로젝트 설계 링크 이동](https://github.com/irishNoah/Database-Programming/wiki/Design)
   
@@ -12,6 +13,27 @@
   - GROUP / HAVING / ORDER 등 
 - 동적 SQL을 활용해 DB에 접근하여, 이를 기반으로 화면을 구성해 본다.
   - 판매하는 상품이 적으면 몰라도, 많은 가운데 일일이 카테고리나 브랜드 명마다 쿼리를 짜는 것은 비효율적인 방법이라 생각했기 때문
+
+# 시연 영상
+<div align="center">
+  <img width="80%" src="https://user-images.githubusercontent.com/83913056/178137258-883967d4-705b-4a08-8f11-4bc565c7c171.gif"/> <br/>
+  <p>회원가입</p>  
+</div>
+
+<div align="center">
+  <img width="80%" src="https://user-images.githubusercontent.com/83913056/178754441-5bd9468e-f023-4275-b344-803d1bd8b6ad.gif"/> <br/>
+  <p>로그인</p> 
+</div>
+
+<div align="center">
+  <img width="80%" src="https://user-images.githubusercontent.com/83913056/178754573-7bc203e5-8a40-4682-9147-e0881803590e.gif"/> <br/>
+  <p>브랜드 SELECT</p> 
+</div>
+
+<div align="center">
+  <img width="80%" src="https://user-images.githubusercontent.com/83913056/178754670-1bc7df92-2c70-4de8-9730-399081e1694d.gif"/> <br/>
+  <p>장바구니</p> 
+</div>
 
 # 주요 구현 부분 설명
 ## 동적 SQL
@@ -135,29 +157,7 @@ if(isset($_POST['search'])){
 ```
 - [전체 / 50만원 이하 / 50~100만원 사이 / 100만원 이상]으로 구분하여, 추후 선택한 범위에 맞는 금액으로 화면을 구성할 수 있도록 구현하였다.
 
-# 시연 영상
-<div align="center">
-  <img width="80%" src="https://user-images.githubusercontent.com/83913056/178137258-883967d4-705b-4a08-8f11-4bc565c7c171.gif"/> <br/>
-  <p>회원가입</p>  
-</div>
-
-<div align="center">
-  <img width="80%" src="https://user-images.githubusercontent.com/83913056/178754441-5bd9468e-f023-4275-b344-803d1bd8b6ad.gif"/> <br/>
-  <p>로그인</p> 
-</div>
-
-<div align="center">
-  <img width="80%" src="https://user-images.githubusercontent.com/83913056/178754573-7bc203e5-8a40-4682-9147-e0881803590e.gif"/> <br/>
-  <p>브랜드 SELECT</p> 
-</div>
-
-<div align="center">
-  <img width="80%" src="https://user-images.githubusercontent.com/83913056/178754670-1bc7df92-2c70-4de8-9730-399081e1694d.gif"/> <br/>
-  <p>장바구니</p> 
-</div>
-
-
-# 마치며
+# 마무리 소감
 - 다음 프로젝트에서는 범용적인 언어인 Java를 활용해서 SQL / DB / 동적 쿼리를 다뤄보고 싶다.
 - 이 프로젝트에서는 애초에 DB 테이블 및 필드를 설계한 것으로만 진행돼서 크게 변경될 점이 없었다.
 - 하지만, 실무에서는 언제나 테이블이나 필드가 추가 및 삭제될 수 있다는 생각이 든다.
