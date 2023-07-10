@@ -3,6 +3,9 @@
 - 본 프로젝트는 가구 사이트를 토대로 만들었습니다.
 - 사용 환경
   - 언어 : PHP / DBMS : MySQL
+- 코드 및 시연 영상 위주로 프로젝트를 소개합니다.
+- 프로젝트 설계(ERD / CRUD 등)는 다음 링크에 있습니다.
+  - [프로젝트 설계 링크 이동](https://github.com/irishNoah/Database-Programming/wiki/Design)
   
 # 프로젝트 목적
 - 팀 프로젝트에서는 다룬 SQL 수준보다 좀 더 고차원적인 SQL을 다루어 본다.
